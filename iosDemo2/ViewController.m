@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) IBOutlet UIView *happyView;
 @property NSString* testString;
 
 @end

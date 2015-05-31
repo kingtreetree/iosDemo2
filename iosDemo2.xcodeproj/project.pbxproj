@@ -14,6 +14,7 @@
 		9CF454561B19F57100F292B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF454551B19F57100F292B3 /* Images.xcassets */; };
 		9CF454591B19F57100F292B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF454571B19F57100F292B3 /* LaunchScreen.xib */; };
 		9CF454651B19F57100F292B3 /* iosDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF454641B19F57100F292B3 /* iosDemo2Tests.m */; };
+		9CF454701B1AB0A300F292B3 /* faceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF4546F1B1AB0A300F292B3 /* faceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		9CF4545E1B19F57100F292B3 /* iosDemo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosDemo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF454631B19F57100F292B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CF454641B19F57100F292B3 /* iosDemo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iosDemo2Tests.m; sourceTree = "<group>"; };
+		9CF4546E1B1AB0A300F292B3 /* faceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = faceView.h; sourceTree = "<group>"; };
+		9CF4546F1B1AB0A300F292B3 /* faceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = faceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				9CF454551B19F57100F292B3 /* Images.xcassets */,
 				9CF454571B19F57100F292B3 /* LaunchScreen.xib */,
 				9CF454481B19F57100F292B3 /* Supporting Files */,
+				9CF4546E1B1AB0A300F292B3 /* faceView.h */,
+				9CF4546F1B1AB0A300F292B3 /* faceView.m */,
 			);
 			path = iosDemo2;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				9CF454511B19F57100F292B3 /* ViewController.m in Sources */,
 				9CF4544E1B19F57100F292B3 /* AppDelegate.m in Sources */,
 				9CF4544B1B19F57100F292B3 /* main.m in Sources */,
+				9CF454701B1AB0A300F292B3 /* faceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				9CF4546A1B19F57100F292B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CF4546B1B19F57100F292B3 /* Build configuration list for PBXNativeTarget "iosDemo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				9CF4546D1B19F57100F292B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

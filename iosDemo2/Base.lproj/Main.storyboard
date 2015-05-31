@@ -31,7 +31,7 @@
             </objects>
             <point key="canvasLocation" x="-599.5" y="1426.5"/>
         </scene>
-        <!--item-->
+        <!--FaceTest-->
         <scene sceneID="Cas-OV-CCs">
             <objects>
                 <viewController id="h9y-LV-g2x" sceneMemberID="viewController">
@@ -44,7 +44,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="item" id="bQk-dv-IBz">
+                    <navigationItem key="navigationItem" title="FaceTest" id="bQk-dv-IBz">
                         <barButtonItem key="rightBarButtonItem" title="next" id="L9t-Hh-Ow9">
                             <connections>
                                 <segue destination="pvp-IX-5Nj" kind="show" id="p0J-bD-COR"/>
@@ -60,7 +60,7 @@
         <!--View Controller-->
         <scene sceneID="ic7-6D-MMF">
             <objects>
-                <viewController id="pvp-IX-5Nj" sceneMemberID="viewController">
+                <viewController id="pvp-IX-5Nj" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="p0d-LA-vp3"/>
                         <viewControllerLayoutGuide type="bottom" id="xwE-uk-xtK"/>
@@ -68,19 +68,30 @@
                     <view key="view" contentMode="scaleToFill" id="F60-7X-dGR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Happyness Value:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVA-Xz-GNI">
+                                <rect key="frame" x="0.0" y="72" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="happyView" destination="F60-7X-dGR" id="9eT-6x-cAL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sSO-UV-yZK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1106.5" y="2197.5"/>
         </scene>
-        <!--Item-->
+        <!--FaceTest-->
         <scene sceneID="2bK-Hk-ALD">
             <objects>
                 <navigationController id="ubR-eb-Vdh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Ka0-Ko-hwX"/>
+                    <tabBarItem key="tabBarItem" title="FaceTest" id="Ka0-Ko-hwX"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="81W-AD-ask">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
