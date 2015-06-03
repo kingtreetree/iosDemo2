@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CA4C65F1B1F17A6002DFE24 /* myVC1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4C65E1B1F17A6002DFE24 /* myVC1ViewController.m */; };
+		9CA4C6621B1F3219002DFE24 /* myVC2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA4C6611B1F3219002DFE24 /* myVC2ViewController.m */; };
 		9CF4544B1B19F57100F292B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF4544A1B19F57100F292B3 /* main.m */; };
 		9CF4544E1B19F57100F292B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF4544D1B19F57100F292B3 /* AppDelegate.m */; };
 		9CF454511B19F57100F292B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF454501B19F57100F292B3 /* ViewController.m */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9CA4C65D1B1F17A6002DFE24 /* myVC1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myVC1ViewController.h; sourceTree = "<group>"; };
+		9CA4C65E1B1F17A6002DFE24 /* myVC1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myVC1ViewController.m; sourceTree = "<group>"; };
+		9CA4C6601B1F3219002DFE24 /* myVC2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myVC2ViewController.h; sourceTree = "<group>"; };
+		9CA4C6611B1F3219002DFE24 /* myVC2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myVC2ViewController.m; sourceTree = "<group>"; };
 		9CF454451B19F57100F292B3 /* iosDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF454491B19F57100F292B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CF4544A1B19F57100F292B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +100,10 @@
 				9CF454481B19F57100F292B3 /* Supporting Files */,
 				9CF4546E1B1AB0A300F292B3 /* faceView.h */,
 				9CF4546F1B1AB0A300F292B3 /* faceView.m */,
+				9CA4C65D1B1F17A6002DFE24 /* myVC1ViewController.h */,
+				9CA4C65E1B1F17A6002DFE24 /* myVC1ViewController.m */,
+				9CA4C6601B1F3219002DFE24 /* myVC2ViewController.h */,
+				9CA4C6611B1F3219002DFE24 /* myVC2ViewController.m */,
 			);
 			path = iosDemo2;
 			sourceTree = "<group>";
@@ -226,6 +236,8 @@
 			files = (
 				9CF454511B19F57100F292B3 /* ViewController.m in Sources */,
 				9CF4544E1B19F57100F292B3 /* AppDelegate.m in Sources */,
+				9CA4C6621B1F3219002DFE24 /* myVC2ViewController.m in Sources */,
+				9CA4C65F1B1F17A6002DFE24 /* myVC1ViewController.m in Sources */,
 				9CF4544B1B19F57100F292B3 /* main.m in Sources */,
 				9CF454701B1AB0A300F292B3 /* faceView.m in Sources */,
 			);
