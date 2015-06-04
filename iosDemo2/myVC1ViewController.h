@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <UIKit/UIActivityIndicatorView.h>
-#import <Foundation/Foundation.h>
+//#import <Foundation/Foundation.h>
 
 @interface myVC1ViewController : UIViewController <UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *myWebView;
